@@ -1,0 +1,16 @@
+# Node modules, OS files and common editors
+node_modules/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Ignore user absolute files
+C:/Users/USER/Desktop/Portfolio/
