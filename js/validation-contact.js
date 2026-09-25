@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    // Keep portfolio project media purely visual: remove project navigation and click behavior.
+    $('#gallery .de_modal')
+        .off('click')
+        .removeAttr('data-url');
+    $('#gallery img, #gallery video').css('pointer-events', 'none');
+
     $('#send_message').on('click', function(e){
         e.preventDefault();
 
